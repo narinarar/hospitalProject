@@ -1,12 +1,12 @@
 package org.example;
 
-public class jobDescription {
+public class JobDescription {
 
     private String name;
     private String lastName;
     private int idNo;
 
-    public jobDescription(String name, String lastName, int idNo) {
+    public JobDescription(String name, String lastName, int idNo) {
         this.name = name;
         this.lastName = lastName;
         this.idNo = idNo;

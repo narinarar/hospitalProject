@@ -1,13 +1,13 @@
 package org.example;
 
-public class chiefPhysician extends jobDescription{
+public class ChiefPhysician extends JobDescription {
 
     private String title;
     private String profession;
     private int tenure;
 
 
-    public chiefPhysician(String name, String lastName, int idNo, String title, String profession, int servicePeriod) {
+    public ChiefPhysician(String name, String lastName, int idNo, String title, String profession, int servicePeriod) {
         super(name, lastName, idNo);
         this.title = title;
         this.profession = profession;
@@ -39,9 +39,9 @@ public class chiefPhysician extends jobDescription{
     }
 
     void work() throws InterruptedException {
-        System.out.println("Chief physician" + getName() + "inspect the doctors annuel leave");
+        System.out.println("Chief physician" + getName() + "inspect the doctors annuel leave.");
         Thread.sleep(3000);
-        System.out.println("Chief physician" + getName() + "inspect laboratory");
+        System.out.println("Chief physician" + getName() + "inspect laboratory.");
 
     }
 
